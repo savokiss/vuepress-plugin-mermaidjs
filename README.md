@@ -3,12 +3,7 @@
 
 # VuePress Plugin for mermaid.js
 
-> Use mermaid.js Diagrams in VuePress
-
-This [VuePress][1] plugin provides a global component wrapping [mermaid.js][2].
-The plugin is designed to work with VuePress v1.x.
-
-Main documentation site is at [vuepress-plugin-mermaidjs.efrane.com][3].
+> Use mermaid.js Diagrams in VuePress Next
 
 ## Installation
 
@@ -17,13 +12,13 @@ Main documentation site is at [vuepress-plugin-mermaidjs.efrane.com][3].
 You can install it with
 
 ``` shell
-yarn add -D vuepress-plugin-mermaidjs
+yarn add -D vuepress-plugin-mermaidjs2
 ```
 
 or
 
 ``` shell
-npm install --save-dev vuepress-plugin-mermaidjs
+npm install --save-dev vuepress-plugin-mermaidjs2
 ```
 
 Then you just need to register the plugin in your `.vuepress/config.js`:
@@ -32,7 +27,7 @@ Then you just need to register the plugin in your `.vuepress/config.js`:
 module.exports = {
     // ...
     plugins: [
-        'vuepress-plugin-mermaidjs'
+        'vuepress-plugin-mermaidjs2'
     ]
     // ...
 }
@@ -54,7 +49,7 @@ a fenced code block with the language 'mermaid':
 ## VuePress 2 Support
 
 You can use this plugin with the upcoming (`next`) release of VuePress
-aka VuePress 2. To do so, use version `2.0.0-beta.1` or above. 
+aka VuePress 2. To do so, use version `2.0.0-beta.1` or above.
 
 [1]: https://vuepress.vuejs.org
 [2]: https://mermaidjs.github.io
