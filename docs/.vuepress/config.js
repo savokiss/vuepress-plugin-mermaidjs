@@ -1,10 +1,11 @@
 const path = require('path')
+const localPlugin = require(path.join(__dirname, '../../src/index.js'));
 
 module.exports = {
     title: 'vuepress-plugin-mermaidjs',
     description: 'Easy Diagramming for VuePress with mermaidjs',
     plugins: [
-        require(path.join(__dirname, '../../src/index.js'))
+        localPlugin,
     ],
     themeConfig: {
         search: false,
