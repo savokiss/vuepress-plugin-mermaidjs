@@ -35,7 +35,8 @@ const Mermaid = {
 
         watchEffect(() => {
             if (props.graph) {
-                import('mermaid/dist/mermaid.min').then(mermaid => {
+                import('mermaid').then(module => {
+                    const mermaid = module.default;
                     mermaid.initialize({
                         startOnLoad: true, ...MERMAID_OPTIONS
                     })
