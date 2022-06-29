@@ -51,6 +51,10 @@ a fenced code block with the language 'mermaid':
 You can use this plugin with the upcoming (`next`) release of VuePress
 aka VuePress 2. To do so, use version `2.0.0-beta.1` or above.
 
+Notice:
+
+**This plugin require VuePress 2.0.0-beta.48 or above.**
+
 [1]: https://vuepress.vuejs.org
 [2]: https://mermaidjs.github.io
 [3]: https://vuepress-plugin-mermaidjs.efrane.com
